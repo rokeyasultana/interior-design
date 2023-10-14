@@ -2,7 +2,7 @@ import React from 'react'
 
 const Ideas = () => {
   return (
-    <div className='grid lg:grid-cols-2  sm:grid-cols-1 md:grid-cols-1 justify-center place-items-center mt-11 lg:ml-[20px]'>
+    <div className='mt-20 grid lg:grid-cols-2  sm:grid-cols-1 md:grid-cols-1 justify-center place-items-center mt-11 lg:ml-[20px]'>
       <div className='lg:ml-[70px]'>
         <h2 className='text-[36px] font-bold text-[#564E4E]'>
           Visualize your ideas with us

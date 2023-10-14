@@ -2,10 +2,10 @@ import React from 'react'
 
 const Products = () => {
   return (
-    <div>
-      <div>
+    <div className='mt-20'>
+    
         <h2 className='text-center text-[36px] mt-11'>Featured Product</h2>
-      </div>
+     
       <div className='mt-11 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 justify-center place-items-center gap-5 lg:ml-20 lg:mr-20'>
         <div >
           <figure className='w-[300px] bg-[#F6F6F6]'>

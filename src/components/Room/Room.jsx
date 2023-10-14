@@ -3,10 +3,10 @@ import { BsArrowRightCircleFill } from 'react-icons/bs'
 const Room = () => {
   return (
     <div>
-      <div className='grid lg:grid-cols-2  sm:grid-cols-1 md:grid-cols-1 justify-center place-items-center mt-11 ml-7 mr-7'>
+      <div className='grid lg:grid-cols-2  sm:grid-cols-1 md:grid-cols-1 justify-center place-items-center mt-11 lg:ml-[-20px] lg:mr-20'>
         <div>
           <img
-            className='rounded w-[500px] h-[400px]'
+            className='rounded-tl rounded-tr rounded-br  w-[500px] h-[400px]'
             src='https://i.ibb.co/jhVtDK8/image-11.png'
             alt=''
           />
@@ -15,7 +15,7 @@ const Room = () => {
           <h2 className='text-[36px] font-bold text-[#564E4E]'>
             Make your room feel homey
           </h2>
-          <p className=' mt-5 '>
+          <p className='mt-5'>
             We help people not only to make the room at home better, but we help
             people to feel a<br></br> more homey and comfortable room, you don’t
             have to worry about the result because of<br></br> these interiors

@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+   
+    .container-Product  h2 {
+      font-size: 30px;
+    }
+    .container-Product  p {
+      font-size: 13px;
+    }
+    .container-Product  img {
+      height: 160px;
+      width: 200px;
+    }
+    .container-Product  figure {
+      height: 180px;
+      width: 230px;
+    }
+  
+  }
+  
+  /* Styles for medium devices (768px to 992px) */
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    .container-Product  h2 {
+        font-size: 30px;
+      }
+
+      .container-Product  p {
+        font-size: 13px;
+      }
+      .container-Product  img {
+        height: 200px;
+        width: 230px;
+      }
+      .container-Product  figure {
+        height: 220px;
+        width: 240px;
+      }
+   
+  }
+  

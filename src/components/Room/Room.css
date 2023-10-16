@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px) {
+   
+    .room-container  h2 {
+      font-size: 30px;
+      text-align: center;
+    }
+    .room-container  p {
+      font-size: 13px;
+    }
+    .room-container  img {
+        height: 300px;
+        width: 350px;
+        margin-bottom: 20px;
+    }
+  
+   
+  }
+  
+  /* Styles for medium devices (768px to 992px) */
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    .room-container  h2 {
+        font-size: 30px;
+      }
+
+      .room-container  p {
+        font-size: 13px;
+      }
+      .room-container  img {
+        height: 300px;
+        width: 500px;
+        margin-bottom: 20px;
+        margin-left: -20px;
+      }
+    
+   
+  }
+  

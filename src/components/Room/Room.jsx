@@ -1,9 +1,10 @@
 import React from 'react'
 import { BsArrowRightCircleFill } from 'react-icons/bs'
+import './Room.css'
 const Room = () => {
   return (
     <div>
-      <div className='grid lg:grid-cols-2  sm:grid-cols-1 md:grid-cols-1 justify-center place-items-center mt-11 lg:ml-[-20px] lg:mr-20'>
+      <div className='grid lg:grid-cols-2  sm:grid-cols-1 md:grid-cols-1 justify-center place-items-center mt-20 lg:ml-[-20px] lg:mr-20 room-container'>
         <div>
           <img
             className='rounded-tl rounded-tr rounded-br  w-[500px] h-[400px]'

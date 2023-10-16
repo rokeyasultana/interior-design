@@ -1,13 +1,13 @@
 import React from 'react'
-
+import './Choosing.css'
 const Choosing = () => {
   return (
-    <div className='mt-20  lg:mr-20'>
+    <div className='mt-20  lg:mr-20 container-choosing'>
       <h2 className='text-[36px] font-bold text-[#564E4E] text-left lg:ml-[90px]'>
         Why Choosing Us
       </h2>
       <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 justify-center place-items-center gap-5 mt-7 lg:ml-16'>
-        <div className='hover:border-2 hover:border-[#FADCD9] hover:shadow-lg hover:shadow-[#FADCD9]'>
+        <div className='hover:border-2 hover:border-[#FADCD9] hover:shadow-lg hover:shadow-[#FADCD9] w-[280px] h-[200px] choose'>
      <div className='px-3 py-3'>
      <figure className='w-14 h-14 rounded-full bg-[#FAF5F2]'>
             <img
@@ -24,7 +24,7 @@ const Choosing = () => {
           </div>
      </div>
         </div>
-        <div className='hover:border-2 hover:border-[#FADCD9] hover:shadow-lg hover:shadow-[#FADCD9]'>
+        <div className='hover:border-2 hover:border-[#FADCD9] hover:shadow-lg hover:shadow-[#FADCD9] w-[280px]  h-[200px]  choose'>
             <div className='px-3 py-3'>     <figure className='w-14 h-14 rounded-full bg-[#FAF5F2]'>
             <img
               className='mb-2 px-3 pb-3 py-3'
@@ -40,7 +40,7 @@ const Choosing = () => {
           </div></div>
      
         </div>
-        <div className='hover:border-2 hover:border-[#FADCD9] hover:shadow-lg hover:shadow-[#FADCD9]'>
+        <div className='hover:border-2 hover:border-[#FADCD9] hover:shadow-lg hover:shadow-[#FADCD9] w-[280px]  h-[200px]  choose'>
             <div  className='px-3 py-3'> <figure className='w-14 h-14 rounded-full bg-[#FAF5F2]'>
             <img
               className='mb-2 px-4 pb-3 py-3'
@@ -56,7 +56,7 @@ const Choosing = () => {
           </div></div>
          
         </div>
-        <div className='hover:border-2 hover:border-[#FADCD9] hover:shadow-lg hover:shadow-[#FADCD9]'>
+        <div className='hover:border-2 hover:border-[#FADCD9] hover:shadow-lg hover:shadow-[#FADCD9] w-[280px]  h-[200px]  choose'>
    <div className='px-3 py-3'>
    <figure className='w-14 h-14 rounded-full bg-[#FAF5F2]'>
             <img

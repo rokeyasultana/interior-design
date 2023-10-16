@@ -1,10 +1,10 @@
 import React from 'react'
-
+import './Products.css'
 const Products = () => {
   return (
-    <div className='mt-20'>
+    <div className='mt-20  container-Product '>
     
-        <h2 className='text-center text-[36px] mt-11'>Featured Product</h2>
+        <h2 className='text-center text-[36px] font-bold text-[#564E4E] title'>Featured Product</h2>
      
       <div className='mt-11 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 justify-center place-items-center gap-5 lg:ml-20 lg:mr-20'>
         <div >
@@ -16,7 +16,7 @@ const Products = () => {
             />
           </figure>
           <div className='mt-5 text-left'>
-            <h2 className='text-xl mb-3'>Product</h2>
+             <h3 className='text-xl mb-3'>Product</h3>
             <p className='mt-2 text-[#C4C4C4]' >Category</p>
             <p className='rating rating-sm mt-2'>
               <input
@@ -54,7 +54,7 @@ const Products = () => {
             />
           </figure>
           <div className='mt-5 text-left'>
-            <h2 className='text-xl mb-3'>Product</h2>
+             <h3 className='text-xl mb-3  '>Product</h3>
             <p className='mt-2 text-[#C4C4C4]' >Category</p>
             <p className='rating rating-sm mt-2'>
               <input
@@ -92,7 +92,7 @@ const Products = () => {
             />
           </figure>
           <div className='mt-5 text-left'>
-            <h2 className='text-xl mb-3'>Product</h2>
+             <h3 className='text-xl mb-3  '>Product</h3>
             <p className='mt-2 text-[#C4C4C4]' >Category</p>
             <p className='rating rating-sm mt-2'>
               <input
@@ -130,7 +130,7 @@ const Products = () => {
             />
           </figure>
           <div className='mt-5 text-left'>
-            <h2 className='text-xl mb-3'>Product</h2>
+             <h3 className='text-xl mb-3  '>Product</h3>
             <p className='mt-2 text-[#C4C4C4]' >Category</p>
             <p className='rating rating-sm mt-2'>
               <input

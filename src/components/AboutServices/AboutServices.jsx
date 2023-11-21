@@ -2,7 +2,7 @@ import React from 'react'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
-
+import './AboutServices.css';
 const AboutServices = () => {
     const settings = {
         dots: true,
@@ -26,7 +26,7 @@ const AboutServices = () => {
       };
     
   return (
-    <div className='mt-20 bg-[#FAF5F2]'>
+    <div className='mt-20 bg-[#FAF5F2] service'>
       <h2 className=' py-7 text-[36px] font-bold text-[#564E4E] text-center'>
         What they say about our services
       </h2>
